@@ -8,12 +8,13 @@
     <artifactId>scala-maven-example</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <java.version>1.8</java.version>
-        <scala.version>2.12.6</scala.version>
+        <scala.version>2.12.10</scala.version>
     </properties>
 
     <dependencies>
@@ -25,6 +26,18 @@
         </dependency>
     </dependencies>
 
+<repositories>
+    <repository>
+      <id>hydra-releases</id>
+      <url>https://repo.triplequote.com/artifactory/libs-release/</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>hydra-releases</id>
+      <url>https://repo.triplequote.com/artifactory/libs-release/</url>
+    </pluginRepository>
+  </pluginRepositories>
     <build>
         <plugins>
             <!-- Configure maven-compiler-plugin to use the desired Java version -->
@@ -46,25 +59,24 @@
                 <executions>
                     <execution>
                         <id>add-source</id>
-                        <phase>generate-sources</phase>
+                        <phase>validate</phase>
                         <goals>
                             <goal>add-source</goal>
                         </goals>
                         <configuration>
                             <sources>
-                                <source>src/main/scala</source>
+                                <source>src/main/java</source>
                             </sources>
                         </configuration>
                     </execution>
                     <execution>
-                        <id>add-test-source</id>
-                        <phase>generate-test-sources</phase>
+                        <phase>pre-site</phase>
                         <goals>
-                            <goal>add-test-source</goal>
+                            <goal>add-source</goal>
                         </goals>
                         <configuration>
                             <sources>
-                                <source>src/test/scala</source>
+                                <source>src/main/java</source>
                             </sources>
                         </configuration>
                     </execution>
@@ -73,19 +85,45 @@
 
             <!-- Use scala-maven-plugin for Scala support -->
             <plugin>
-                <groupId>net.alchim31.maven</groupId>
+                <groupId>com.triplequote.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
-                <version>3.2.2</version>
+                <version>3.2.2-hydra09</version>
                 <executions>
                     <execution>
+                        <phase>compile</phase>
                         <goals>
-                            <!-- Need to specify this explicitly, otherwise plugin won't be called when doing e.g. mvn compile -->
                             <goal>compile</goal>
                             <goal>testCompile</goal>
                         </goals>
                     </execution>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>doc-jar</goal>
+                        </goals>
+                        <configuration>
+                            <doctitle>${project.name}</doctitle>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>doc</id>
+                        <configuration>
+                            <doctitle>${project.name}</doctitle>
+                        </configuration>
+                    </execution>
                 </executions>
+                <configuration>
+                    <recompileMode>incremental</recompileMode>
+                    <useZincServer>true</useZincServer>
+                    <hydraEnabled>true</hydraEnabled>
+                    <hydraVersion>2.2.0</hydraVersion>
+                    <args>
+                        <arg>-feature</arg>
+                        <arg>-deprecation</arg>
+                    </args>
+                </configuration>
             </plugin>
+
 
             <!-- scala assembly-->
             <plugin>
