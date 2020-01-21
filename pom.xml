@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jesperdj</groupId>
@@ -9,12 +8,13 @@
     <version>1.0.0-SNAPSHOT</version>
 
 
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <java.version>1.8</java.version>
-        <scala.version>2.12.10</scala.version>
+        <java.version>11</java.version>
+        <scala.version>2.13.1</scala.version>
     </properties>
 
     <dependencies>
@@ -26,18 +26,18 @@
         </dependency>
     </dependencies>
 
-<repositories>
-    <repository>
-      <id>hydra-releases</id>
-      <url>https://repo.triplequote.com/artifactory/libs-release/</url>
-    </repository>
-  </repositories>
-  <pluginRepositories>
-    <pluginRepository>
-      <id>hydra-releases</id>
-      <url>https://repo.triplequote.com/artifactory/libs-release/</url>
-    </pluginRepository>
-  </pluginRepositories>
+    <repositories>
+        <repository>
+            <id>hydra-releases</id>
+            <url>https://repo.triplequote.com/artifactory/libs-release/</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>hydra-releases</id>
+            <url>https://repo.triplequote.com/artifactory/libs-release/</url>
+        </pluginRepository>
+    </pluginRepositories>
     <build>
         <plugins>
             <!-- Configure maven-compiler-plugin to use the desired Java version -->
@@ -48,6 +48,8 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <skipMain>true</skipMain>
+                    <skip>false</skip>
                 </configuration>
             </plugin>
 
@@ -113,7 +115,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <recompileMode>incremental</recompileMode>
+                    <!-- <recompileMode>incremental</recompileMode> -->
                     <useZincServer>true</useZincServer>
                     <hydraEnabled>true</hydraEnabled>
                     <hydraVersion>2.2.0</hydraVersion>
