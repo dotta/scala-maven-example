@@ -49,7 +49,7 @@
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                     <skipMain>true</skipMain>
-                    <skip>false</skip>
+                    <skip>true</skip>
                 </configuration>
             </plugin>
 
