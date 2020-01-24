@@ -1,0 +1,2 @@
+Worker ID, File, Total Time (ms), lateFile?, totalSpans, parser nodes, typer nodes, LoC, LoC/s
+0, src/main/scala/com/jesperdj/example/HelloScala.scala, 777, false, 30, 15, 21, 4, 5

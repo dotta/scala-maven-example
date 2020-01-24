@@ -1,0 +1,9 @@
+Time, Tag, Workers, Files, Compilation Duration (ms), GC Duration (ms)
+2020/01/22 10:31:46,  scala-maven-example/main,   1,     2,      1218,        30
+2020/01/22 11:24:40,  scala-maven-example/main,   1,     2,      1216,        27
+2020/01/22 11:34:33,  scala-maven-example/main,   1,     2,       397,         7
+2020/01/22 11:49:55,  scala-maven-example/main,   1,     2,      1305,        27
+2020/01/22 17:37:57,  scala-maven-example/main,   1,     2,      3539,        90
+2020/01/22 17:39:49,  scala-maven-example/main,   1,     2,       724,        17
+2020/01/22 17:47:55,  scala-maven-example/main,   1,     2,       399,        18
+2020/01/22 17:54:16,  scala-maven-example/main,   1,     2,      1595,        38

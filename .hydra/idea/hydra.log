@@ -1,0 +1,142 @@
+2020-01-22 10:31:46.440 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 2 files in 2 roots took 46 ms.
+2020-01-22 10:31:46.446 INFO  c.t.hydra.Hydra - Loaded pickle store with 0 entries.
+2020-01-22 10:31:46.447 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.1-hydra40
+2020-01-22 10:31:46.448 INFO  c.t.hydra.Hydra - Hydra version:       2.2.0
+2020-01-22 10:31:46.448 INFO  c.t.hydra.Hydra - Compiling project:   scala-maven-example/main
+2020-01-22 10:31:46.456 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 7 ms.
+2020-01-22 10:31:46.456 INFO  c.t.hydra.Hydra - Clean build: true
+2020-01-22 10:31:46.870 INFO  c.t.h.l.ActivatedLicenseText - ActivatedLicenseText.validate took 392 ms.
+2020-01-22 10:31:46.871 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 176. Maximum cores: 8
+2020-01-22 10:31:46.873 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/mirco/Projects/purgatorium/scala-maven-example/.hydra/idea/scala-maven-example/main/partition.hydra exist yet. Using plain partition strategy.
+2020-01-22 10:31:46.886 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-01-22 10:31:48.095 INFO  worker.0 - Worker used 0 cached entries.
+2020-01-22 10:31:48.095 INFO  c.t.h.WorkerThread - [worker.0]: 1186 ms 	1 sources.
+2020-01-22 10:31:48.103 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 30 milliseconds
+2020-01-22 10:31:48.104 INFO  c.t.hydra.Hydra - Hydra compiling: 1218 ms
+2020-01-22 10:31:48.133 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-01-22 10:31:48.134 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 1686 ms.
+2020-01-22 10:31:48.148 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/mirco/.triplequote/metrics/scala-maven-example-1579685506446
+2020-01-22 11:24:40.676 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 2 files in 2 roots took 48 ms.
+2020-01-22 11:24:40.692 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-01-22 11:24:40.693 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.1-hydra40
+2020-01-22 11:24:40.694 INFO  c.t.hydra.Hydra - Hydra version:       2.2.0
+2020-01-22 11:24:40.694 INFO  c.t.hydra.Hydra - Compiling project:   scala-maven-example/main
+2020-01-22 11:24:40.701 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 5 ms.
+2020-01-22 11:24:40.702 INFO  c.t.hydra.Hydra - Clean build: true
+2020-01-22 11:24:40.834 INFO  c.t.h.l.ActivatedLicenseText - ActivatedLicenseText.validate took 115 ms.
+2020-01-22 11:24:40.835 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 176. Maximum cores: 8
+2020-01-22 11:24:40.837 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/mirco/Projects/purgatorium/scala-maven-example/.hydra/idea/scala-maven-example/main/partition.hydra exist yet. Using plain partition strategy.
+2020-01-22 11:24:40.848 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-01-22 11:24:42.055 INFO  worker.0 - Worker used 0 cached entries.
+2020-01-22 11:24:42.056 INFO  c.t.h.WorkerThread - [worker.0]: 1183 ms 	1 sources.
+2020-01-22 11:24:42.063 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 27 milliseconds
+2020-01-22 11:24:42.064 INFO  c.t.hydra.Hydra - Hydra compiling: 1216 ms
+2020-01-22 11:24:42.092 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-01-22 11:24:42.093 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 1683 ms.
+2020-01-22 11:24:42.109 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/mirco/.triplequote/metrics/scala-maven-example-1579688680693
+2020-01-22 11:34:33.367 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 2 files in 2 roots took 10 ms.
+2020-01-22 11:34:33.383 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-01-22 11:34:33.383 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.1-hydra40
+2020-01-22 11:34:33.385 INFO  c.t.hydra.Hydra - Hydra version:       2.2.0
+2020-01-22 11:34:33.385 INFO  c.t.hydra.Hydra - Compiling project:   scala-maven-example/main
+2020-01-22 11:34:33.394 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 7 ms.
+2020-01-22 11:34:33.394 INFO  c.t.hydra.Hydra - Clean build: true
+2020-01-22 11:34:33.534 INFO  c.t.h.l.ActivatedLicenseText - ActivatedLicenseText.validate took 120 ms.
+2020-01-22 11:34:33.535 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 176. Maximum cores: 8
+2020-01-22 11:34:33.537 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/mirco/Projects/purgatorium/scala-maven-example/.hydra/idea/scala-maven-example/main/partition.hydra exist yet. Using plain partition strategy.
+2020-01-22 11:34:33.550 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-01-22 11:34:33.939 INFO  worker.0 - Worker used 0 cached entries.
+2020-01-22 11:34:33.939 INFO  c.t.h.WorkerThread - [worker.0]: 366 ms 	1 sources.
+2020-01-22 11:34:33.946 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 7 milliseconds
+2020-01-22 11:34:33.947 INFO  c.t.hydra.Hydra - Hydra compiling: 397 ms
+2020-01-22 11:34:33.981 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-01-22 11:34:33.983 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 866 ms.
+2020-01-22 11:34:34.001 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/mirco/.triplequote/metrics/scala-maven-example-1579689273383
+2020-01-22 11:49:55.116 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 2 files in 2 roots took 51 ms.
+2020-01-22 11:49:55.132 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-01-22 11:49:55.132 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.1-hydra40
+2020-01-22 11:49:55.134 INFO  c.t.hydra.Hydra - Hydra version:       2.2.0
+2020-01-22 11:49:55.134 INFO  c.t.hydra.Hydra - Compiling project:   scala-maven-example/main
+2020-01-22 11:49:55.142 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 6 ms.
+2020-01-22 11:49:55.142 INFO  c.t.hydra.Hydra - Clean build: true
+2020-01-22 11:49:55.285 INFO  c.t.h.l.ActivatedLicenseText - ActivatedLicenseText.validate took 117 ms.
+2020-01-22 11:49:55.286 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 176. Maximum cores: 8
+2020-01-22 11:49:55.288 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/mirco/Projects/purgatorium/scala-maven-example/.hydra/idea/scala-maven-example/main/partition.hydra exist yet. Using plain partition strategy.
+2020-01-22 11:49:55.299 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-01-22 11:49:56.597 INFO  worker.0 - Worker used 0 cached entries.
+2020-01-22 11:49:56.597 INFO  c.t.h.WorkerThread - [worker.0]: 1273 ms 	1 sources.
+2020-01-22 11:49:56.604 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 27 milliseconds
+2020-01-22 11:49:56.605 INFO  c.t.hydra.Hydra - Hydra compiling: 1305 ms
+2020-01-22 11:49:56.630 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-01-22 11:49:56.631 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 1773 ms.
+2020-01-22 11:49:56.648 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/mirco/.triplequote/metrics/scala-maven-example-1579690195132
+2020-01-22 17:37:57.262 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 2 files in 2 roots took 82 ms.
+2020-01-22 17:37:57.288 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-01-22 17:37:57.289 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.1-hydra40
+2020-01-22 17:37:57.291 INFO  c.t.hydra.Hydra - Hydra version:       2.2.0
+2020-01-22 17:37:57.291 INFO  c.t.hydra.Hydra - Compiling project:   scala-maven-example/main
+2020-01-22 17:37:57.304 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 9 ms.
+2020-01-22 17:37:57.304 INFO  c.t.hydra.Hydra - Clean build: true
+2020-01-22 17:37:59.702 INFO  c.t.h.l.ActivatedLicenseText - ActivatedLicenseText.validate took 2370 ms.
+2020-01-22 17:37:59.703 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 176. Maximum cores: 8
+2020-01-22 17:37:59.706 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/mirco/Projects/purgatorium/scala-maven-example/.hydra/idea/scala-maven-example/main/partition.hydra exist yet. Using plain partition strategy.
+2020-01-22 17:37:59.726 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-01-22 17:38:03.238 INFO  worker.0 - Worker used 0 cached entries.
+2020-01-22 17:38:03.239 INFO  c.t.h.WorkerThread - [worker.0]: 3476 ms 	1 sources.
+2020-01-22 17:38:03.264 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 90 milliseconds
+2020-01-22 17:38:03.266 INFO  c.t.hydra.Hydra - Hydra compiling: 3539 ms
+2020-01-22 17:38:03.357 INFO  worker.0 - Total time in late files: 28 ms in 1 late files
+2020-01-22 17:38:03.360 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 3976 ms.
+2020-01-22 17:38:03.388 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/mirco/.triplequote/metrics/scala-maven-example-1579711077288
+2020-01-22 17:39:49.290 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 2 files in 2 roots took 2 ms.
+2020-01-22 17:39:49.293 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-01-22 17:39:49.293 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.1-hydra40
+2020-01-22 17:39:49.293 INFO  c.t.hydra.Hydra - Hydra version:       2.2.0
+2020-01-22 17:39:49.293 INFO  c.t.hydra.Hydra - Compiling project:   scala-maven-example/main
+2020-01-22 17:39:49.294 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 1 ms.
+2020-01-22 17:39:49.294 INFO  c.t.hydra.Hydra - Clean build: true
+2020-01-22 17:39:49.301 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 176. Maximum cores: 8
+2020-01-22 17:39:49.301 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/mirco/Projects/purgatorium/scala-maven-example/.hydra/idea/scala-maven-example/main/partition.hydra exist yet. Using plain partition strategy.
+2020-01-22 17:39:49.302 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-01-22 17:39:50.024 INFO  worker.0 - Worker used 0 cached entries.
+2020-01-22 17:39:50.025 INFO  c.t.h.WorkerThread - [worker.0]: 720 ms 	1 sources.
+2020-01-22 17:39:50.025 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 17 milliseconds
+2020-01-22 17:39:50.026 INFO  c.t.hydra.Hydra - Hydra compiling: 724 ms
+2020-01-22 17:39:50.027 INFO  worker.0 - Total time in late files: 10 ms in 1 late files
+2020-01-22 17:39:50.027 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 1220 ms.
+2020-01-22 17:39:50.030 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/mirco/.triplequote/metrics/scala-maven-example-1579711189293
+2020-01-22 17:47:55.766 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 2 files in 2 roots took 2 ms.
+2020-01-22 17:47:55.767 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-01-22 17:47:55.767 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.1-hydra40
+2020-01-22 17:47:55.767 INFO  c.t.hydra.Hydra - Hydra version:       2.2.0
+2020-01-22 17:47:55.767 INFO  c.t.hydra.Hydra - Compiling project:   scala-maven-example/main
+2020-01-22 17:47:55.768 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 1 ms.
+2020-01-22 17:47:55.768 INFO  c.t.hydra.Hydra - Clean build: true
+2020-01-22 17:47:55.772 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 176. Maximum cores: 8
+2020-01-22 17:47:55.772 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/mirco/Projects/purgatorium/scala-maven-example/.hydra/idea/scala-maven-example/main/partition.hydra exist yet. Using plain partition strategy.
+2020-01-22 17:47:55.772 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-01-22 17:47:56.170 INFO  worker.0 - Worker used 0 cached entries.
+2020-01-22 17:47:56.170 INFO  c.t.h.WorkerThread - [worker.0]: 397 ms 	1 sources.
+2020-01-22 17:47:56.171 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 18 milliseconds
+2020-01-22 17:47:56.171 INFO  c.t.hydra.Hydra - Hydra compiling: 399 ms
+2020-01-22 17:47:56.172 INFO  worker.0 - Total time in late files: 2 ms in 1 late files
+2020-01-22 17:47:56.172 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 897 ms.
+2020-01-22 17:47:56.174 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/mirco/.triplequote/metrics/scala-maven-example-1579711675767
+2020-01-22 17:54:16.421 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 2 files in 2 roots took 58 ms.
+2020-01-22 17:54:16.438 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-01-22 17:54:16.438 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.1-hydra40
+2020-01-22 17:54:16.440 INFO  c.t.hydra.Hydra - Hydra version:       2.2.0
+2020-01-22 17:54:16.440 INFO  c.t.hydra.Hydra - Compiling project:   scala-maven-example/main
+2020-01-22 17:54:16.447 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 5 ms.
+2020-01-22 17:54:16.447 INFO  c.t.hydra.Hydra - Clean build: true
+2020-01-22 17:54:18.494 INFO  c.t.h.l.ActivatedLicenseText - ActivatedLicenseText.validate took 2027 ms.
+2020-01-22 17:54:18.495 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 176. Maximum cores: 8
+2020-01-22 17:54:18.497 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/mirco/Projects/purgatorium/scala-maven-example/.hydra/idea/scala-maven-example/main/partition.hydra exist yet. Using plain partition strategy.
+2020-01-22 17:54:18.508 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-01-22 17:54:20.091 INFO  worker.0 - Worker used 0 cached entries.
+2020-01-22 17:54:20.091 INFO  c.t.h.WorkerThread - [worker.0]: 1559 ms 	1 sources.
+2020-01-22 17:54:20.103 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 38 milliseconds
+2020-01-22 17:54:20.104 INFO  c.t.hydra.Hydra - Hydra compiling: 1595 ms
+2020-01-22 17:54:20.141 INFO  worker.0 - Total time in late files: 12 ms in 1 late files
+2020-01-22 17:54:20.143 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 2059 ms.
+2020-01-22 17:54:20.162 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/mirco/.triplequote/metrics/scala-maven-example-1579712056438
