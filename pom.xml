@@ -87,12 +87,12 @@
 
             <!-- Use scala-maven-plugin for Scala support -->
             <plugin>
-                <groupId>net.alchim31.maven</groupId>
+                <!-- <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
-                <version>3.2.2</version>
-                <!-- <groupId>com.triplequote.maven</groupId>
+                <version>3.2.2</version> -->
+                <groupId>com.triplequote.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
-                <version>3.2.2-hydra09</version> -->
+                <version>3.2.2-hydra09</version>
                 <executions>
                     <execution>
                         <phase>compile</phase>
