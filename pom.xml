@@ -13,8 +13,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <java.version>11</java.version>
-        <scala.version>2.13.1</scala.version>
+        <java.version>8</java.version>
+        <scala.version>2.11.12</scala.version>
     </properties>
 
     <dependencies>
@@ -118,14 +118,53 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <!-- <recompileMode>incremental</recompileMode> -->
+                    <scalaVersion>${scala.version}</scalaVersion>
+                    <jvmArgs>
+                        <jvmArg>-server</jvmArg>
+                        <jvmArg>-Xms256m</jvmArg>
+                        <jvmArg>-Xmx3G</jvmArg>
+                        <jvmArg>-XX:+UseCodeCacheFlushing</jvmArg>
+                        <jvmArg>-XX:ReservedCodeCacheSize=512m</jvmArg>
+                    </jvmArgs>
+                    <javacArgs>
+                        <javacArg>-source</javacArg>
+                        <javacArg>1.7</javacArg>
+                        <javacArg>-target</javacArg>
+                        <javacArg>1.7</javacArg>
+                    </javacArgs>
+                    <args>
+                        <arg>-Ybackend:GenBCode</arg>
+                        <arg>-Ydelambdafy:method</arg>
+                        <arg>-target:jvm-1.6</arg>
+                        <arg>-nowarn</arg>
+                        <arg>-Xlint:_,-missing-interpolator</arg>
+                        <arg>-encoding</arg>
+                        <arg>UTF-8</arg>
+                        <arg>-feature</arg>
+                        <arg>-optimise</arg>
+                        <arg>-deprecation</arg>
+                    </args>
+
+                    <recompileMode>incremental</recompileMode>
+                    <useZincServer>true</useZincServer>
+
+                    <!-- hydra settings -->
+                    <hydraEnabled>true</hydraEnabled>
+                    <hydraVersion>2.2.2</hydraVersion>
+                    <hydraCpus>4</hydraCpus> <!-- optional -->
+                    <hydraMetricsServiceVersion>1.2.0</hydraMetricsServiceVersion>
+                    <!-- hydra settings end -->
+                    <!--
+                    <useZincServer>true</useZincServer>
+                    <recompileMode>incremental</recompileMode>
                     <useZincServer>true</useZincServer>
                     <hydraEnabled>true</hydraEnabled>
-                    <hydraVersion>2.2.0</hydraVersion>
+                    <hydraVersion>2.2.1</hydraVersion>
                     <args>
                         <arg>-feature</arg>
                         <arg>-deprecation</arg>
                     </args>
+                    -->
                 </configuration>
             </plugin>
 
